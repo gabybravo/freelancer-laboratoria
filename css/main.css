@@ -50,7 +50,7 @@ body {
 }
 
 .banner {
-	height: 600px;
+	height: 700px;
 	background-color: #1EB18A;
 }
 
@@ -74,8 +74,17 @@ body {
 	font-weight: 300;
 }
 
-.portafolio, .contact {
+.div-info img {
+	padding: 25px;
+}
+
+.contact {
 	height: 700px;
+	background-color: white;
+}
+
+.portafolio {
+	height: 820px;
 	background-color: white;
 }
 
@@ -131,6 +140,7 @@ body {
 .div-contact h1 {
 	font-size: 40px;
 }
+
 .contact-form input {
 	color: #0A0F22;
 	width: 500px;
@@ -145,4 +155,113 @@ body {
 #message {
 	height: 150px;
 	padding-bottom: 100px;
+}
+
+.btn-success {
+  	color: white;
+  	background-color: #18BC9C;
+  	border-color: #18BC9C;
+  	font-weight: 700;
+  	margin-right: 415px;
+  	cursor: pointer;
+}
+
+.btn-lg {
+	padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+footer {
+  color: white;
+}
+
+footer h3 {
+  margin-bottom: 30px;
+}
+
+footer .footer-above {
+  padding-top: 40px;
+  background-color: #2C3E50;
+}
+
+footer .footer-col {
+  margin-bottom: 50px;
+  margin-left: -30px;
+}
+
+footer .footer-col h3 {
+	font-size: 24px;
+}
+
+footer .footer-col2 h3 {
+	font-size: 24px;
+}
+
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #233140;
+  text-align: center;
+  font-size: 14px;
+}
+
+.list-inline {
+	list-style: none;
+	margin-left: -35px;
+}
+
+.list-inline>li{
+	display: inline-block;
+	padding: 5px;
+}
+
+.btn-outline {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+ }
+
+.btn-social {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.footer-col2 a {
+	text-decoration: none;
+	color: #1EB18A;
+}
+
+.footer-col2 a:hover {
+	color: #1EB18A;
+	text-decoration: underline;
+}
+
+hr {
+	background-color: white;
+	width: 100px;
+	height: 5px;
+	display: inline-block;
+	margin-top: 5px
+}
+
+.linea-black {
+	background-color: black;
+}
+
+.fa-star {
+	margin: 10px;
 }
