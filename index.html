@@ -37,19 +37,32 @@
 	<!-- PORTAFOLIO -->
 	<section class="portafolio">
 		<div class="container titulo-portafolio">
-			<h1>PORTAFOLIO</h1>
-			<hr class="linea-black"></hr><i class="fa fa-star" aria-hidden="true"></i><hr class="linea-black"></hr>
+			<h1 class="text-uppercase text-services mt-0">PORTAFOLIO</h1>
+			<hr class="linea-black"></hr><i class="fa fa-star fa-2x" aria-hidden="true"></i><hr class="linea-black"></hr>
 		</div>
-		<div class="row container portafolio-row"> 
-			<div class="col-4"><img src="assets/images/portfolio/cabin.png" class="img-responsive" alt="cabin"></div>
-			<div class="col-4"><img src="assets/images/portfolio/cake.png" class="img-responsive" alt="cake"></div>	
-			<div class="col-4"><img src="assets/images/portfolio/circus.png" class="img-responsive" alt="circus"></div>			
-		</div>
-
 		<div class="row container portafolio-row">
-			<div class="col-4"><img src="assets/images/portfolio/game.png" class="img-responsive" alt="game"></div>
-			<div class="col-4"><img src="assets/images/portfolio/safe.png" class="img-responsive" alt="safe"></div>	
-			<div class="col-4"><img src="assets/images/portfolio/submarine.png" class="img-responsive" alt="submarine"></div>	
+			<div class="col-4 caja port"> 
+				<img src="assets/images/portfolio/cabin.png" class="img-responsive" alt="cabin">
+			</div>
+
+			<div class="col-4 caja port"> 
+				<img src="assets/images/portfolio/cake.png" class="img-responsive" alt="cake">
+			</div>	
+			<div class="col-4 caja port">
+				<img src="assets/images/portfolio/circus.png" class="img-responsive" alt="circus">
+			</div>			
+		
+		</div>
+		<div class="row container portafolio-row">
+			<div class="col-4 caja port"> 
+				<img src="assets/images/portfolio/game.png" class="img-responsive" alt="game">
+			</div>
+			<div class="col-4 caja port"> 
+				<img src="assets/images/portfolio/safe.png" class="img-responsive" alt="safe">
+			</div>	
+			<div class="col-4 caja port">
+				<img src="assets/images/portfolio/submarine.png" class="img-responsive" alt="submarine">
+			</div>	
 		</div>
 	</section>
 
@@ -66,7 +79,7 @@
 					<p>Whether you`re a student looking to showcase your work, a professional looking to attact clients, or a graphic artist looking to share your projects, this template is the perfect staring point!</p>
 				</div>	
 				<div class="boton-about">
-					<a href="#"><i class="fa fa-download" aria-hidden="true"></i>Download Theme</a>
+					<a href="#"><i class="fa fa-download" aria-hidden="true"></i>  Download Theme</a>
 				</div>	
 			</div>
 		</div>
@@ -79,10 +92,18 @@
 			<hr class="linea-black"></hr><i class="fa fa-star fa-2x" aria-hidden="true"></i><hr class="linea-black"></hr>
 			<div class="contact-form">
 				<form action="">
-					<input type="text" id="name" placeholder="Name">
+					<div class="name-container input-box">
+					<input type="text" id="name" class="name" placeholder="Name">
+					</div>
+					<div class="mail-container input-box">
 					<input type="text" id="email" placeholder="Email Address">
+					</div>
+					<div class="phone-container input-box">
 					<input type="text" id="phone" placeholder="Phone Number">
+					</div>
+					<div class="message-container input-box">
 					<input type="text" id="message" placeholder="Message">
+					</div>
 				 <div class="row">
                         <div class="form-group col-12">
                             <button type="submit" class="btn btn-success btn-lg">Send</button>
@@ -139,6 +160,7 @@
             </div>
         </div>
     </footer>
+
 
 <script src="https://use.fontawesome.com/4154d90246.js"></script>
 <script src="js/app.js" type="text/javascript"></script>
