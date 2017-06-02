@@ -9,16 +9,16 @@ send.addEventListener("click", function(e){
  	var message = document.getElementById("message").value;
 
  	if(nombre == ""){
- 		document.getElementById("name").value = "Ingrese su Nombre";
+ 		document.getElementById("name").value = "Ingrese su nombre, por favor.";
  	}	
  	if(email ==""){
-		document.getElementById("email").value = "Ingrese su Email";
+		document.getElementById("email").value = "Ingrese su email, por favor.";
  	}
  	if(phone ==""){
-		document.getElementById("phone").value = "Ingrese su Teléfono";
+		document.getElementById("phone").value = "Ingrese su teléfono, por favor.";
  	}
  	if(message == ""){
-		document.getElementById("message").value = "· Ingrese su Mensaje";
+		document.getElementById("message").value = "Ingrese su mensaje, por favor.";
 	}
 
  	if(nombre != "" && email != "" && phone != "" && message != "") {
